@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+
 import { motion } from 'framer-motion';
 import Button from '../components/ui/Button';
 import { Send, CheckCircle } from 'lucide-react';
@@ -12,10 +12,7 @@ const Enquiry = () => {
                   exit={{ opacity: 0 }}
                   className="pt-32 pb-20 bg-gray-50 min-h-screen"
             >
-                  <Helmet>
-                        <title>Enquiry | Join Speakify English Academy Today</title>
-                        <meta name="description" content="Book a free demo class or counseling session at Speakify English Academy. Start your journey towards confident communication today." />
-                  </Helmet>
+
                   <div className="container mx-auto px-6">
                         <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
 

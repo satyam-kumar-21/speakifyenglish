@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+
 import Hero from '../components/Hero';
 import Features from '../components/Features';
 import Testimonials from '../components/Testimonials';
@@ -10,11 +10,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
       return (
             <>
-                  <Helmet>
-                        <title>Speakify English Academy | Best Spoken English Classes in Bhopal</title>
-                        <meta name="description" content="Join Speakify English Academy in Bhopal for Spoken English, Public Speaking, Personality Development, and Confidence Building. Founder: Vikas Singh Parihar." />
-                        <meta name="keywords" content="Spoken English Bhopal, Personality Development, Public Speaking Classes, Vikas Singh Parihar, English Speaking Course" />
-                  </Helmet>
+
                   <Hero />
                   <Features />
 

@@ -67,14 +67,14 @@ const Navbar = () => {
                               >
                                     <div className="flex flex-col p-6 space-y-4">
                                           {navLinks.map((link) => (
-                                                <a
+                                                <Link
                                                       key={link.name}
-                                                      href={link.href}
+                                                      to={link.href}
                                                       className="text-gray-700 font-medium hover:text-blue-600"
                                                       onClick={() => setIsOpen(false)}
                                                 >
                                                       {link.name}
-                                                </a>
+                                                </Link>
                                           ))}
                                           <Link to="/enquiry"><Button variant="primary" className="w-full">Get Started</Button></Link>
                                     </div>
