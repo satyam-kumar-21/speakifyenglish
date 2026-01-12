@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import vikash from "../assets/vikash2.jpeg"
 
 const Director = () => {
       return (
@@ -15,9 +16,9 @@ const Director = () => {
                                     <div className="relative">
                                           <div className="absolute inset-0 bg-blue-200 transform translate-x-4 translate-y-4 rounded-xl"></div>
                                           <img
-                                                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                                src={vikash}
                                                 alt="Director"
-                                                className="relative rounded-xl shadow-lg w-full object-cover h-[400px]"
+                                                className="relative rounded-xl shadow-lg w-full object-cover object-top h-[400px]"
                                           />
                                     </div>
                               </motion.div>
