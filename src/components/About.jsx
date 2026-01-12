@@ -31,13 +31,13 @@ const About = () => {
       );
 
       return (
-            <section id="about" className="py-20 relative overflow-hidden">
+            <section id="about" className="py-12 lg:py-20 relative overflow-hidden">
                   {/* Decorative elements */}
                   <div className="absolute top-0 left-0 w-64 h-64 bg-teal-50 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
                   <div className="absolute top-0 right-0 w-64 h-64 bg-blue-50 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
 
-                  <div className="container mx-auto px-6 relative z-10">
-                        <div className="flex flex-col lg:flex-row items-start gap-16">
+                  <div className="container mx-auto px-4 lg:px-6 relative z-10">
+                        <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-16">
                               <motion.div
                                     initial={{ opacity: 0, x: -50 }}
                                     whileInView={{ opacity: 1, x: 0 }}
@@ -67,10 +67,10 @@ const About = () => {
                                     transition={{ duration: 0.6 }}
                                     className="lg:w-1/2"
                               >
-                                    <h2 className="text-4xl font-bold text-gray-900 mb-6">About Us</h2>
+                                    <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">About Us</h2>
                                     <div className="w-20 h-1 bg-blue-600 mb-8"></div>
 
-                                    <h3 className="text-2xl font-bold text-gray-800 mb-4">Not Just English—We Train You to Speak, Lead, and Inspire.</h3>
+                                    <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-4">Not Just English—We Train You to Speak, Lead, and Inspire.</h3>
 
                                     <p className="text-lg text-gray-600 mb-6">
                                           At Speakify English Academy, we are dedicated to building confident communicators and inspiring leaders. Our coaching goes beyond traditional English classes—we focus on practical communication, personality development, and real-world skills that help you succeed in every aspect of life.
